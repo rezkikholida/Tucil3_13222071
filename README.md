@@ -1,7 +1,7 @@
 # Tucil3 — Ice Sliding Puzzle Solver
 
 ## Deskripsi
-Program ini merupakan implementasi algoritma *Pathfinding* (Uniform Cost Search, Greedy Best First Search, dan A*) untuk menyelesaikan permainan **Ice Sliding Puzzle**. Dalam permainan ini, pemain menggerakkan aktor dari titik awal menuju titik keluar di atas permukaan es yang licin — aktor tidak akan berhenti bergerak sampai menabrak dinding atau rintangan. Permainan ini juga memiliki modifikasi berupa petak angka berurutan (0, 1, 2, ...) yang wajib dilalui aktor sesuai urutannya sebelum mencapai titik keluar. Program membaca konfigurasi papan dari berkas `.txt`, mencari solusi menggunakan salah satu algoritma pathfinding yang dipilih pengguna, lalu menampilkan langkah solusi, total cost, jumlah iterasi pencarian, waktu eksekusi, serta playback visualisasi langkah demi langkah di terminal.
+Program ini merupakan implementasi algoritma *Pathfinding* (Uniform Cost Search, Greedy Best First Search, dan A*) untuk menyelesaikan permainan **Ice Sliding Puzzle**. Dalam permainan ini, pemain menggerakkan aktor dari titik awal menuju titik keluar di atas permukaan es yang licin, artinya aktor tidak akan berhenti bergerak sampai menabrak dinding atau rintangan. Permainan ini juga memiliki modifikasi berupa petak angka berurutan (0, 1, 2, ...) yang wajib dilalui aktor sesuai urutannya sebelum mencapai titik keluar. Program membaca konfigurasi papan dari berkas `.txt`, mencari solusi menggunakan salah satu algoritma pathfinding yang dipilih pengguna, lalu menampilkan langkah solusi, total cost, jumlah iterasi pencarian, waktu eksekusi, serta playback visualisasi langkah demi langkah di terminal.
 
 ## Requirement
 - Python 3.10 atau lebih baru (menggunakan modul `typing.NamedTuple`, `heapq`, dan `time` yang merupakan bagian dari standar pustaka Python, tanpa instalasi tambahan)
@@ -26,7 +26,7 @@ Python adalah bahasa *interpreted*, sehingga tidak memerlukan proses kompilasi t
    >> Algoritma apa yang anda pilih? (UCS/GBFS/A*): 
    \```
 7. Program menampilkan solusi (urutan gerakan U/D/L/R), total cost, waktu eksekusi (ms), dan jumlah iterasi.
-8. Program akan menanyakan apakah ingin melakukan **playback** — jika ya, pengguna dapat memilih step awal playback dan bernavigasi menggunakan:
+8. Program akan menanyakan apakah ingin melakukan **playback**. Jika ya, pengguna dapat memilih step awal playback dan bernavigasi menggunakan:
    - `n` : maju satu step
    - `p` : mundur satu step
    - `q` : keluar dari mode playback
