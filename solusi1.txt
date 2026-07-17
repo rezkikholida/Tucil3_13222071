@@ -1,0 +1,6 @@
+File input : test1.txt
+Algoritma  : A*
+Solusi     : RULUDRUR
+Total cost : 87
+Waktu eksekusi: 0.27 ms
+Banyak iterasi yang dilakukan: 14 iterasi

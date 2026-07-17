@@ -1,0 +1,6 @@
+File input : test5.txt
+Algoritma  : GBFS
+Solusi     : RDRU
+Total cost : 144
+Waktu eksekusi: 0.10 ms
+Banyak iterasi yang dilakukan: 5 iterasi

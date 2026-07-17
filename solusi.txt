@@ -1,0 +1,6 @@
+File input : puzzle.txt
+Algoritma  : UCS
+Solusi     : RULUDRUR
+Total cost : 87
+Waktu eksekusi: 0.12 ms
+Banyak iterasi yang dilakukan: 15 iterasi

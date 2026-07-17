@@ -1,0 +1,6 @@
+File input : test4.txt
+Algoritma  : UCS
+Solusi     : DRUD
+Total cost : 135
+Waktu eksekusi: 0.09 ms
+Banyak iterasi yang dilakukan: 7 iterasi
